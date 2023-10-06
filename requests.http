@@ -1,0 +1,14 @@
+### List all messages
+GET http://localhost:3000/messages
+
+
+### Create new message
+POST http://localhost:3000/messages
+content-type: application/json
+
+{
+    "content": "Hi, Peter Parker 999!"
+}
+
+### Get a message
+GET http://localhost:3000/messages/544
